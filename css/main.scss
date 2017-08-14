@@ -1,6 +1,15 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
+
+@charset "utf-8";
+
+// Variables to modify font folders
+$icon-font-path:      "../fonts/bootstrap";
+$fa-font-path:        "../fonts/font-awesome";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "bootstrap/bootstrap";
+@import "font-awesome/font-awesome";
 @import "base";
 @import "layout";
-@import	"bootstrap";

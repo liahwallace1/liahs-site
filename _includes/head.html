@@ -6,7 +6,7 @@
     <title>Liah D. Wallace - Web Developer - Interactive Resume</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -14,13 +14,9 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!-- jQuery -->
-<script src="/js/jquery/jquery.min.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="/js/bootstrap/bootstrap.min.js"></script>
     <!-- Begin Inspectlet Embed Code -->
-    <script type="text/javascript" id="inspectletjs">
+    <!-- <script type="text/javascript" id="inspectletjs">
       window.__insp = window.__insp || [];
       __insp.push(['wid', 92785244]);
       (function() {
@@ -31,6 +27,6 @@
           window.addEventListener('load', __ldinsp, false);
         }
       })();
-    </script>
+    </script> -->
     <!-- End Inspectlet Embed Code -->
   </head>
